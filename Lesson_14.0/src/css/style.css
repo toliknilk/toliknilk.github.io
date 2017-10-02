@@ -1,0 +1,160 @@
+@font-face {
+ font-family:'ProximaNovaReg';
+ src:url(../fonts/ProximaNova-Regular.eot);
+ src:url(../fonts/ProximaNova-Regular.eot?#iefix) format("embedded-opentype"),url(../fonts/ProximaNova-Regular.woff2) format("woff2"),url(../fonts/ProximaNova-Regular.woff) format("woff"),url(../fonts/ProximaNova-Regular.ttf) format("truetype"),url(../fonts/ProximaNova-Regular.svg#ProximaNova-Regular) format("svg");
+ font-weight:400;
+ font-style:normal
+}
+@font-face {
+ font-family:'ProximaNovaBold';
+ src:url(../fonts/ProximaNova-Bold.eot);
+ src:url(../fonts/ProximaNova-Bold.eot?#iefix) format("embedded-opentype"),url(../fonts/ProximaNova-Bold.woff2) format("woff2"),url(../fonts/ProximaNova-Bold.woff) format("woff"),url(../fonts/ProximaNova-Bold.ttf) format("truetype"),url(../fonts/ProximaNova-Bold.svg#ProximaNova-Bold) format("svg");
+ font-weight:700;
+ font-style:normal
+}
+html {
+ font-size:10px
+}
+body {
+ font-family:'ProximaNovaReg'
+}
+a:hover {
+ text-decoration:none
+}
+button:focus,input:focus,a:focus,textarea:focus {
+ outline:none
+}
+.button {
+ padding:1rem 3rem;
+ border-radius:8px;
+ flex:1.2rem;
+ border:none;
+ background:#fcb303;
+ color:#fff;
+ text-transform:uppercase;
+ transition:all .2
+}
+.button:hover {
+ cursor:pointer;
+ background-color:#d99a03
+}
+.form-input,.form-textarea {
+ display:block;
+ margin:2rem 0;
+ width:100%;
+ border:1px solid #ddd;
+ border-radius:8px;
+ padding:1.5rem
+}
+.form label {
+ position:absolute;
+ left:50%;
+ transform:translateX(-50%) translateY(-50%);
+ padding:.5rem;
+ font-family:'ProximaNovaReg';
+ font-size:1.3rem;
+ background-color:#fff
+}
+.form-btn {
+ display:block;
+ height:5.5rem;
+ width:100%;
+ font-size:1.6rem
+}
+section {
+ padding:10rem 0
+}
+.section-header {
+ margin:2rem 0 10rem;
+ text-align:center
+}
+.section-header_light {
+ color:#fff;
+ margin-top:0
+}
+.section-header h2 {
+ font-family:'ProximaNovaBold';
+ font-size:3.6rem
+}
+.section-header p {
+ font-size:1.4rem
+}
+.main {
+ padding:3rem 0 5rem;
+ background:#fff url(../img/main-bg.jpg) center center no-repeat;
+ background-size:cover
+}
+.main-content {
+ margin-top:14rem
+}
+.main-content h1 {
+ margin-top:0;
+ font-family:'ProximaNovaBold';
+ line-height:1.35;
+ font-size:3.5rem;
+ text-transform:uppercase
+}
+.main-subtitle {
+ margin-bottom:4rem;
+ font-size:2.4rem
+}
+.main span {
+ display:inline-block;
+ padding:3rem 5rem;
+ color:#fff;
+ background-color:#46b814;
+ text-align:center
+}
+.main span strong {
+ font-size:3rem;
+ font-family:'ProximaNovaBold'
+}
+.main-trigger {
+ display:block;
+ margin-top:3rem;
+ font-size:2.2rem;
+ text-transform:uppercase;
+ font-family:'ProximaNovaBold'
+}
+.main-form {
+ padding:4rem 5r
+.main-form-header strong {
+ font-size:1.9em
+}
+.main-form small {
+ display:block;
+ margin-top:1.5rem
+}
+.header {
+ height:7rem
+}
+.wrap {
+ display:table;
+ width:100%;
+ height:7rem
+}
+.wrap-block {
+ display:table-cell;
+ vertical-align:middle;
+ text-align:right
+}
+.phone-block {
+ text-align:right
+}
+.phone-link {
+ display:inline-block;
+ font-family:'ProximaNovaBold';
+ font-weight:700;
+ font-size:2rem;
+ line-height:7rem
+}
+.phone-link p.num {
+ color:#1a1820
+}em;
+ background-color:#fff;
+ text-align:center
+}
+.main-form-header {
+ margin-bottom:4rem;
+ font-size:1.8rem
+}
